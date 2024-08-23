@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="Text/css" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?
+    family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+
+    <title>HOME</title>
+
+</head>
+<body>
+  <!-- header -->
+  <header>
+    <a class="logo"><img style="width: 70px; height: 60px;" src="img/logo.png" alt="" >PETBOT</a>
+    <ul class="navlist">
+      <li><a href="index.html" >Store</a></li>
+      <li><a href="Gallery.html"class="active">Gallery</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="aboutus.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="h-main">
+      <a href="login.html" class="h-btn">Login</a>
+   <li id="lg-bag"><a href="cart.html"><i class="bx bx-cart" id="darkmod" aria-hidden="true"></i></a></li>
+        
+<a href="#" id="close"><i class="fa fa-times"></i></a>
+
+    </ul>
+</div>
+<div id="mobile">
+<a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+<i id="bar" class="fas fa-outdent"></i>
+
+</div>
+    <div class="bx bx-menu" id="menu-icon" style="color: beige;"></div>
+    <div class="bx bx-moon" id="darkmode"></div>
+    </div>
+  </header>
+  
+<br><br>
+
+<!--homepage-->
+  <section id="page-header">
+    
+       <h2>#letusknow</h2>
+       <p>We love hearing from you!</p>
+      </section>
+   
+
+      <section>
+        <div class="container1">
+            <h2>We appreciate your feedback!</h2>
+            <p>
+                We are always looking for ways to improve your experience. Please take a moment to evaluate and tell us what you think.
+            </p>
+            <form id="feedbackForm">
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                
+                <label for="rating">Rating:</label>
+                <div class="star-rating">
+                    <input type="radio" id="rating5" name="rating" value="5"><label for="rating5">5</label>
+                    <input type="radio" id="rating4" name="rating" value="4"><label for="rating4">4</label>
+                    <input type="radio" id="rating3" name="rating" value="3"><label for="rating3">3</label>
+                    <input type="radio" id="rating2" name="rating" value="2"><label for="rating2">2</label>
+                    <input type="radio" id="rating1" name="rating" value="1"><label for="rating1">1</label>
+                </div><br>
+                
+                <label for="feedback">Feedback:</label><br>
+                <textarea id="feedback" name="feedback" rows="4" cols="50" required></textarea><br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        
+            <div id="thankYou" class="thank-you" style="display: none;">Thank you for your feedback! your feedback fuels our progress
+            </div>
+        
+            <div id="feedbackDisplay">
+                <!-- Feedback will be displayed here -->
+                
+            </div>
+        </div>
+        </section>
+
+  <!--newsletters-->
+  <section id="newsletters" class="section-p1 section-m1">
+    <div class="newstext">
+<h4>Sign up for Newsletters</h4>
+<p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address"><button class="normal">Sign up </button>
+    </div>
+  </section>
+  <!--footer-->
+  <footer class="section-p1">
+ <div class="col">
+    <img src="img/logo.png" style=" width: 100px; height: 60px;" >
+    <h4>Contact</h4>
+    <p><strong>Address </strong>Federal B-area 
+        Block-3</p>
+    <p><strong>Phone </strong>+123-456-789023</p>
+    <p><strong>Hours </strong>10:00-18:00 , Mon-Sat</p>
+    <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+            <a href="https://www.facebook.com/profile.php?id=61559875482604" target="_blank"> <i class="fab fa-facebook"></i></a>
+            <a href="https://x.com/" target="_blank" ><i class="fab fa-twitter" ></i></a>
+            <a href="https://www.instagram.com/petbot.company?utm_source=qr&igsh=dzJzcjAxdGM1d3Iz" target="_blank">  <i class="fab fa-instagram"></i></a>
+             <a href="https://web.whatsapp.com/" target="_blank"> <i class="fab fa-whatsapp"></i></a>
+             <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+    </div>
+
+ </div>
+ <div class="col">
+    <h4>About</h4>
+    <a href="index.html">Home</a>
+    <a href="Gallery.html">Gallery</a>
+    <a href="services.html">Services</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="contact.html">Contact Us</a>
+    
+     </div>
+     <div class="col">
+        <h4>My Account</h4>
+        <a href="login.html">My Account</a>
+        <a href="signup.html">Sign Up</a>
+        <a href="cart.html">View Cart</a>
+        <a href="aboutus.html">My Wishlist</a>
+         <a href="cart.html">Track My Order</a>
+        <a href="contact.html">Help</a>
+        
+         </div>
+     <div class="col-install">
+<h4>Install App</h4>
+<p>From App Store or Google Play</p>
+<div class="row">
+    <img src="img/google_play-removebg-preview.png" 
+    style="width: 120px; height: 90px;">
+    
+</div>
+
+<p>Secured Payment Getways</p>
+<img src="img/paypal-removebg-preview.png" 
+style="width: 120px; height: 50px;">
+     </div>
+     
+     
+     <div class="copyright">
+        <p>© 2021, Tech etc -HTML CSS Ecommerce Template</p>
+     </div>
+  </footer>
+  
+  <script src="gallery.js"></script>
+  <script src="galley2.js"></script>
+  <script>document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+    
+    // Get form data
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var rating = document.querySelector('input[name="rating"]:checked').value;
+    var feedback = document.getElementById("feedback").value;
+    
+    // Display thank you message
+    document.getElementById("thankYou").style.display = "block";
+
+    // Display feedback
+    var feedbackDisplay = document.getElementById("feedbackDisplay");
+    var feedbackHTML = "<p><strong>Name:</strong> " + name + "</p>" +
+                       "<p><strong>Email:</strong> " + email + "</p>" +
+                       "<p><strong>Rating:</strong> " + rating + "</p>" +
+                       "<p><strong>Feedback:</strong> " + feedback + "</p>";
+    feedbackDisplay.innerHTML = feedbackHTML;
+});</script>
+
+</body>
+</html>
